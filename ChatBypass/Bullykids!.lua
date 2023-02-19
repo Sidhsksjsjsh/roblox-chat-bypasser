@@ -48,3 +48,5 @@ UI.Main.Chat.MouseButton1Down:Connect(function()
     end
     game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(chat, "All")
 end)
+
+-- #V125
